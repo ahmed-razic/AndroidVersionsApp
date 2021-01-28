@@ -14,11 +14,9 @@ public class Version {
     public String getVersion_name() {
         return mVersion_name;
     }
-
     public String getVersion_number() {
         return mVersion_number;
     }
-
     public int getVersion_icon_ID() {
         return mVersion_icon_ID;
     }
