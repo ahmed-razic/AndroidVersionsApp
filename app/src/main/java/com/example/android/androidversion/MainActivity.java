@@ -32,10 +32,8 @@ public class MainActivity extends AppCompatActivity {
         versions.add(new Version("Android 10", "10.0", R.drawable.android10));
         versions.add(new Version("Android 11", "11.0", R.drawable.android11));
 
-
         AndroidVersionAdapter adapter = new AndroidVersionAdapter(this, versions);
         ListView listView = findViewById(R.id.list_item);
         listView.setAdapter(adapter);
-
     }
 }

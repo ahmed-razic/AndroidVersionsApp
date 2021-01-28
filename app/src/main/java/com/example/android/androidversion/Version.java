@@ -1,9 +1,9 @@
 package com.example.android.androidversion;
 
 public class Version {
-    private String mVersion_name;
-    private String mVersion_number;
-    private int mVersion_icon_ID;
+    private final String mVersion_name;
+    private final String mVersion_number;
+    private final int mVersion_icon_ID;
 
     public Version(String version_name, String version_number, int version_icon_ID){
         mVersion_name = version_name;
