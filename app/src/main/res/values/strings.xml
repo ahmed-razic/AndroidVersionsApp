@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Version</string>
+    <string name="list_item_icon">android_icon</string>
+</resources>
